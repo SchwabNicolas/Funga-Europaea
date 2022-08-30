@@ -19,7 +19,7 @@ if (Test-Path -Path $venv) {
 
         & $deactivate
     } else {
-        "piptool is missing. Please install it with " + $venv + 'pip.exe install -m pip-tools'
+        "Package pip-tools is missing. Please install it with " + $venv + 'pip.exe install -m pip-tools'
     }
 } else {
     "Virtual environment doesn't exist."
