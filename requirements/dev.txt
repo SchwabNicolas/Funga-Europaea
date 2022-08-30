@@ -1,0 +1,2 @@
+-r common.txt
+django-browser-reload==1.6.0
